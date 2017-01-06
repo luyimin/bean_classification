@@ -1,0 +1,15 @@
+name			accuracy	unweightd_average_recall	exc. time
+
+Gray_histo		0.87		0.66				165 mins
+Hog(8x8)		0.88		0.61				27 mins
+RGB			0.92		0.70				15 mins
+Gray			0.86		0.66				243 mins
+Hog(4x4)		0.89		0.57				75 mins
+SIFT+BoW		0.90		0.50				2 mins
+
+
+拿Brazil_Cerrado_sprase_B當作unlabel_testing_data
+
+最後兩百張有15張預測失誤
+經由3人判定與RGB的model比較
+正確率92.5%
